@@ -97,7 +97,7 @@
         color: 'linear-gradient(135deg, rgb(131, 208, 242), rgb(79, 91, 140))',
       },
       {
-        category: 'Lurk',
+        category: 'Social',
         name: 'Reddit',
         key: 'r',
         url: 'https://www.reddit.com',
@@ -105,7 +105,15 @@
         color: 'linear-gradient(135deg, #5f99cf, #5f7dcf)',
       },
       {
-        category: 'Lurk',
+        category: 'Social',
+        name: 'Discord',
+        key: 'd',
+        url: 'https://discord.com/channels/@me',
+        search: null,
+        color: '#5865F2',
+      },
+      {
+        category: 'Social',
         name: 'Pinterest',
         key: 'P',
         url: 'https://www.pinterest.fr',
@@ -113,7 +121,7 @@
         color: 'linear-gradient(135deg, rgb(189, 8, 28), #e50914)',
       },
       {
-        category: 'Lurk',
+        category: 'Social',
         name: 'Instagram',
         key: 'i',
         url: 'https://www.instagram.com',
@@ -145,6 +153,14 @@
         color: 'linear-gradient(135deg, #79c4df, #036487)',
       },
       {
+        category: 'Read',
+        name: 'Feedly',
+        key: 'feed',
+        url: 'https://feedly.com/i/my',
+        search: null,
+        color: '#2CB34D',
+      },
+      {
         category: 'Watch',
         name: 'Netflix',
         key: 'n',
@@ -174,22 +190,6 @@
         url: 'https://www.primevideo.com/',
         search: '/search/ref=atv_nb_sr?phrase={}&ie=UTF8',
         color: 'linear-gradient(135deg, #0f171e, #cd4c1f)',
-      },
-      {
-        category: 'Talk',
-        name: 'Whatsapp',
-        key: 'w',
-        url: 'https://web.whatsapp.com/',
-        search: null,
-        color: 'linear-gradient(135deg, rgb(30, 190, 165), rgb(220, 248, 198))',
-      },
-      {
-        category: 'Talk',
-        name: 'Casus NO',
-        key: 'c',
-        url: 'https://www.casusno.fr/',
-        search: '/search.php?keywords={}',
-        color: 'linear-gradient(135deg, rgb(4, 159, 195), rgb(30, 190, 165))',
       },
     ],
 
@@ -594,7 +594,7 @@
 
   @media (min-width: 1500px) {
     .categories {
-      grid-template-columns: repeat(5, 220px) 175px;
+      grid-template-columns: repeat(4, 220px);
     }
   }
 </style>
